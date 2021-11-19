@@ -5,9 +5,9 @@ function createGreeting(){
  let userName = getUserName();
  let greeting = hourOfDay();
  document.write(greeting + ',' + userName + "!");
-}
+//}
 
-function getUserName(){
+//function getUserName(){
     let userName = prompt("What is your name?"); 
     return userName;
 }
@@ -23,12 +23,12 @@ function hourOfDay(){
         greeting = "Good Morning";
     }else {
         greeting = "Welcome";
-    }
+   // }
 
     return greeting;
-}
+//}
 
-function sayHello(){
+//function sayHello(){
     let answer = prompt("What is your name?");
     if(answer == 2){
         alert("you are right!")
@@ -38,15 +38,6 @@ function sayHello(){
     console.log("Hello");
 }
 
-function openText(){
-    // randomly get a number (look online on how to get a random number????)
-    let number = 1;
-    if(number === 1){
-        document.write("hello, this is some pretty cool text");
-    } else if(number === 3) {
-        // some other text
-    }
-}
 
 alert("Sign-In");
 sayHello();
